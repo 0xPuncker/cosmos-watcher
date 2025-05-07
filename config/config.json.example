@@ -1,0 +1,43 @@
+{
+    "server": {
+        "port": "8080",
+        "read_timeout": "5s",
+        "write_timeout": "10s"
+    },
+    "github": {
+        "api_url": "https://api.github.com",
+        "token": "your-github-token",
+        "timeout": "30s"
+    },
+    "registry": {
+        "url": "https://raw.githubusercontent.com/cosmos/chain-registry/master",
+        "refresh_interval": "1h"
+    },
+    "poller": {
+        "interval": "5m",
+        "timeout": "30s"
+    },
+    "slack": {
+        "webhook_url": "your-slack-webhook-url",
+        "notification_threshold": "24h"
+    },
+    "jobs": {
+        "max_concurrent": 10,
+        "predefined": [
+            {
+                "name": "check-upgrades",
+                "schedule": "@every 5m",
+                "task": "check-upgrades",
+                "enabled": true,
+                "description": "Check for chain upgrades periodically"
+            },
+            {
+                "name": "load-chains",
+                "schedule": "@daily",
+                "task": "load-chains",
+                "enabled": true,
+                "description": "Refresh chain registry data daily"
+            }
+        ]
+    }
+} 

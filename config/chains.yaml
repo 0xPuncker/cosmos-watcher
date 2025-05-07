@@ -1,0 +1,111 @@
+mainnet:
+  - name: allora
+    display_name: Allora
+    network: mainnet
+  - name: astriamainnet
+    display_name: Astria
+    network: mainnet
+  - name: axelar
+    display_name: Axelar
+    network: mainnet
+  - name: babylon
+    display_name: Babylon
+    network: mainnet
+  - name: berachain
+    display_name: BeraChain
+    network: mainnet
+  - name: celestia
+    display_name: Celestia
+    network: mainnet
+  - name: cosmoshub
+    display_name: Cosmos Hub
+    network: mainnet
+  - name: dymension
+    display_name: Dymension
+    network: mainnet
+  - name: haqq
+    display_name: HAQQ
+    network: mainnet
+  - name: lombardledger
+    display_name: Lombard
+    network: mainnet
+  - name: namada
+    display_name: Namada
+    network: mainnet
+  - name: neutron
+    display_name: Neutron
+    network: mainnet
+  - name: noble
+    display_name: Noble
+    network: mainnet
+  - name: nyx
+    display_name: Nyx
+    network: mainnet
+  - name: saga
+    display_name: Saga
+    network: mainnet
+  - name: sei
+    display_name: Sei
+    network: mainnet
+  - name: story
+    display_name: Story
+    network: mainnet
+  - name: gateway
+    display_name: Wormhole
+    network: mainnet
+
+testnet:
+  - name: alloratestnet
+    display_name: Allora
+    network: testnet
+  - name: astriatestnet
+    display_name: Astria
+    network: testnet
+  - name: axelartestnet
+    display_name: Axelar
+    network: testnet
+  - name: axonetestnet
+    display_name: Axone
+    network: testnet
+  - name: babylontestnet
+    display_name: Babylon
+    network: testnet
+  - name: berachaintestnet
+    display_name: BeraChain
+    network: testnet
+  - name: celestiatestnet
+    display_name: Celestia
+    network: testnet
+  - name: dymensiontestnet1
+    display_name: Dymension
+    network: testnet
+  - name: haqqtestnet
+    display_name: HAQQ
+    network: testnet
+  - name: lombardledgertestnet
+    display_name: Lombard
+    network: testnet
+  - name: mezotestnet
+    display_name: Mezo
+    network: testnet
+  - name: namadatestnet
+    display_name: Namada
+    network: testnet
+  - name: neutrontestnet
+    display_name: Neutron
+    network: testnet
+  - name: nobletestnet
+    display_name: Noble
+    network: testnet
+  - name: pelltestnet
+    display_name: Pell
+    network: testnet
+  - name: sagatestnet
+    display_name: Saga
+    network: testnet
+  - name: seitestnet
+    display_name: Sei
+    network: testnet
+  - name: storytestnet
+    display_name: Story
+    network: testnet
