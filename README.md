@@ -37,7 +37,7 @@ A robust service that monitors and tracks upgrades for Cosmos-based blockchains,
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/p2p/devops-cosmos-watcher.git
+git clone https://github.com/0xPuncker/cosmos-watcher.git
 cd devops-cosmos-watcher
 ```
 
@@ -340,4 +340,4 @@ staticcheck ./...
 
 ## 📄 License
 
-MIT License - See [](./LICENSE) file for details.
+MIT License - See [MIT License](./LICENSE) file for details.

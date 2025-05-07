@@ -1,8 +1,8 @@
 package testutil
 
 import (
-	"github.com/p2p/devops-cosmos-watcher/internal/chain"
-	"github.com/p2p/devops-cosmos-watcher/pkg/types"
+	"github.com/0xPuncker/cosmos-watcher/internal/chain"
+	"github.com/0xPuncker/cosmos-watcher/pkg/types"
 	"github.com/sirupsen/logrus"
 )
 

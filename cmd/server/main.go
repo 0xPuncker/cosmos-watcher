@@ -11,16 +11,16 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/0xPuncker/cosmos-watcher/internal/api"
+	"github.com/0xPuncker/cosmos-watcher/internal/chain"
+	"github.com/0xPuncker/cosmos-watcher/internal/config"
+	"github.com/0xPuncker/cosmos-watcher/internal/cron"
+	"github.com/0xPuncker/cosmos-watcher/internal/notifications"
+	"github.com/0xPuncker/cosmos-watcher/internal/poller"
 	"github.com/dimiro1/banner"
 	"github.com/gorilla/mux"
 	"github.com/joho/godotenv"
 	"github.com/mattn/go-colorable"
-	"github.com/p2p/devops-cosmos-watcher/internal/api"
-	"github.com/p2p/devops-cosmos-watcher/internal/chain"
-	"github.com/p2p/devops-cosmos-watcher/internal/config"
-	"github.com/p2p/devops-cosmos-watcher/internal/cron"
-	"github.com/p2p/devops-cosmos-watcher/internal/notifications"
-	"github.com/p2p/devops-cosmos-watcher/internal/poller"
 	"github.com/sirupsen/logrus"
 )
 

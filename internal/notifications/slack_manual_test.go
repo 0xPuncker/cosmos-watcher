@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/0xPuncker/cosmos-watcher/pkg/config"
+	"github.com/0xPuncker/cosmos-watcher/pkg/types"
 	"github.com/joho/godotenv"
-	"github.com/p2p/devops-cosmos-watcher/pkg/config"
-	"github.com/p2p/devops-cosmos-watcher/pkg/types"
 	"github.com/sirupsen/logrus"
 )
 

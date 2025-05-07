@@ -6,9 +6,9 @@ import (
 	"sort"
 	"testing"
 
+	"github.com/0xPuncker/cosmos-watcher/internal/chain"
+	"github.com/0xPuncker/cosmos-watcher/internal/config"
 	"github.com/joho/godotenv"
-	"github.com/p2p/devops-cosmos-watcher/internal/chain"
-	"github.com/p2p/devops-cosmos-watcher/internal/config"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

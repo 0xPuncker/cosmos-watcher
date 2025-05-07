@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/p2p/devops-cosmos-watcher/pkg/types"
+	"github.com/0xPuncker/cosmos-watcher/pkg/types"
 	"github.com/robfig/cron/v3"
 	"github.com/sirupsen/logrus"
 )

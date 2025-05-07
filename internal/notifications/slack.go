@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/p2p/devops-cosmos-watcher/pkg/types"
-	"github.com/p2p/devops-cosmos-watcher/pkg/utils"
+	"github.com/0xPuncker/cosmos-watcher/pkg/types"
+	"github.com/0xPuncker/cosmos-watcher/pkg/utils"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"

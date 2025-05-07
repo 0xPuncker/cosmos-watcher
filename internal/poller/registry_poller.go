@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/p2p/devops-cosmos-watcher/internal/chain"
+	"github.com/0xPuncker/cosmos-watcher/internal/chain"
 	"github.com/sirupsen/logrus"
 )
 

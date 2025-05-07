@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/p2p/devops-cosmos-watcher/pkg/types"
+	"github.com/0xPuncker/cosmos-watcher/pkg/types"
 	"github.com/stretchr/testify/assert"
 )
 

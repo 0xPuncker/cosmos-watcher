@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/0xPuncker/cosmos-watcher/internal/notifications"
+	"github.com/0xPuncker/cosmos-watcher/pkg/types"
 	"github.com/joho/godotenv"
-	"github.com/p2p/devops-cosmos-watcher/internal/notifications"
-	"github.com/p2p/devops-cosmos-watcher/pkg/types"
 	"github.com/patrickmn/go-cache"
 	"github.com/sirupsen/logrus"
 )

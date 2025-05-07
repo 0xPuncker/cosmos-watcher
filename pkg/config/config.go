@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/p2p/devops-cosmos-watcher/pkg/types"
+	"github.com/0xPuncker/cosmos-watcher/pkg/types"
 	"gopkg.in/yaml.v3"
 )
 

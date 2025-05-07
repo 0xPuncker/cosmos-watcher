@@ -9,12 +9,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/0xPuncker/cosmos-watcher/internal/chain"
+	"github.com/0xPuncker/cosmos-watcher/internal/config"
+	"github.com/0xPuncker/cosmos-watcher/internal/cron"
+	"github.com/0xPuncker/cosmos-watcher/internal/notifications"
+	"github.com/0xPuncker/cosmos-watcher/pkg/types"
 	"github.com/gorilla/mux"
-	"github.com/p2p/devops-cosmos-watcher/internal/chain"
-	"github.com/p2p/devops-cosmos-watcher/internal/config"
-	"github.com/p2p/devops-cosmos-watcher/internal/cron"
-	"github.com/p2p/devops-cosmos-watcher/internal/notifications"
-	"github.com/p2p/devops-cosmos-watcher/pkg/types"
 	"github.com/sirupsen/logrus"
 )
 
